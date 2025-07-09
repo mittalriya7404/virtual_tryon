@@ -1,4 +1,3 @@
-// src/components/UploadImage.js
 import React, { useState } from 'react';
 
 const UploadImage = ({ onImageUpload }) => {

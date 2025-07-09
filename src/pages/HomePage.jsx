@@ -81,7 +81,7 @@ const Home = () => {
 
           {/* Predefined Product Images */}
           <div className="mx-6 my-6 bg-seclight h-80">
-            <PreProductImgs />
+            <PreProductImgs onImageSelect={setProductImage}/>
           </div>
 
           {/* Categories Section */}

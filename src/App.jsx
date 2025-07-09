@@ -1,38 +1,22 @@
 // src/App.js
 import React from 'react';
+import HolisticComponent from './components/HolisticComponent';
 import './App.css';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
-import Illustration from './assets/models/images/Illustration.png'
-// import bubble from './assets/models/images/Illustration@2x.png'
-// import windows from './assets/models/images/windows.png'
-// import shadow from './assets/models/images/shadoow.png'
-
+// import PoseDetection from "./components/PoseDetection";
 
 const App = () => {
 
   return (
-    <div classname='bg-white h-screen w-screen'>
-      <Navbar></Navbar>
-      {/* <div className='h-80 w-screen bg-nav px-40 flex p-9 justify-between'>
-        <div className='mx-12'>
-        <div className='text-5xl font-semibold'>
-          Lessons and insights
-        </div>
-        <div className='text-5xl font-semibold text-green-500'>
-          from 8 years
-        </div>
-        </div>
-        <img src={Illustration} alt="" />
-
-      </div> */}
-      <HomePage/>
-      
-
+     <div className="bg-white h-screen w-screen">
+      <Navbar />
+      <HomePage />
+      {/* <HolisticComponent /> */}
+      {/* <PoseDetection /> */}
+      <h1>Live Pose Detection</h1>
     </div>
-    
-      
-); 
+  );
 };
 
 
