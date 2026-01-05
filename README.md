@@ -54,7 +54,7 @@ src/
 Follow these steps to set up and run the Virtual Try-On app on your machine:
 
 # Clone the repository
-git clone https://github.com/your-username/virtual-try-on.git
+git clone https://github.com/mittalriya7404/virtual-try-on.git
 
 # Navigate into the project directory
 cd virtual-try-on
