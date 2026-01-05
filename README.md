@@ -37,7 +37,7 @@
 
 ---
 
-## 📂 Folder Structure (optional)
+## 📂 Folder Structure 
 
 ```bash
 src/
@@ -53,15 +53,15 @@ src/
 
 Follow these steps to set up and run the Virtual Try-On app on your machine:
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/mittalriya7404/virtual-try-on.git
 
-# Navigate into the project directory
+## Navigate into the project directory
 cd virtual-try-on
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Start the development server
+## Start the development server
 npm run dev
 
